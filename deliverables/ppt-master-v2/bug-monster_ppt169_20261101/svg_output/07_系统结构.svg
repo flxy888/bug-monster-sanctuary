@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#64DEC0" stroke-width="1.5"/></marker></defs>
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">前端交互、Java 后端判定、MySQL 保存</text><text x="64" y="151" font-size="20" fill="#ADC3CA">Vue 3 / Monaco → REST → Spring Boot 单体后端</text></g>
+  <g id="system-map" data-pptx-bounds="64 214 1152 350">
+    <rect x="64" y="236" width="296" height="300" rx="8" fill="#142B36"/>
+    <rect x="424" y="214" width="432" height="350" rx="8" fill="#173744"/>
+    <rect x="920" y="236" width="296" height="300" rx="8" fill="#142B36"/>
+    <g stroke="#64DEC0" stroke-width="2"><line x1="372" y1="386" x2="410" y2="386" marker-end="url(#arrow)"/><line x1="868" y1="386" x2="906" y2="386" marker-end="url(#arrow)"/></g>
+    <g fill="#EDF5F3"><text x="96" y="291" font-size="32" font-weight="bold">前端</text><text x="96" y="360">编辑与问题定位<tspan x="96" dy="48">图鉴、成长、历史</tspan><tspan x="96" dy="48">AST 展示</tspan></text>
+    <text x="456" y="273" font-size="32" font-weight="bold" fill="#64DEC0">Java 后端</text><text x="456" y="340">Controller 接收请求<tspan x="456" dy="48">Service 协调扫描与结算</tspan><tspan x="456" dy="48">AnalysisRule 静态检查</tspan><tspan x="456" dy="48">MyBatis 访问数据库</tspan></text>
+    <text x="952" y="291" font-size="32" font-weight="bold">MySQL</text><text x="952" y="360">项目与源码快照<tspan x="952" dy="48">问题身份与谱系</tspan><tspan x="952" dy="48">奖励与成长记录</tspan></text></g>
+  </g>
+  <g id="backend-authority" data-pptx-bounds="64 596 1152 50" fill="#64DEC0"><text x="64" y="632" font-size="32">XP 只由后端结算，前端展示真实结果。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">Java 21 · Spring Boot 3.5.16 · MyBatis · MySQL</text><text x="1216" y="693" text-anchor="end">07 / 14</text></g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">只删一个分号，恢复 VIP 条件判断</text><text x="64" y="151" font-size="20" fill="#ADC3CA">保留后面的花括号和折扣代码，重新扫描确认。</text></g>
+  <g id="semicolon-before-after" data-pptx-bounds="64 220 1152 260">
+    <rect x="64" y="220" width="552" height="260" rx="8" fill="#142B36"/><rect x="648" y="220" width="568" height="260" rx="8" fill="#163B38"/>
+    <text x="96" y="266" font-size="20" fill="#FFA07B">修复前 · 空 then 分支</text><text x="680" y="266" font-size="20" fill="#64DEC0">修复后 · 折扣受条件控制</text>
+    <g font-family="Consolas" font-size="32" fill="#EDF5F3"><text x="96" y="335">if (order.vip())<tspan font-weight="bold" fill="#FFA07B">;</tspan><tspan x="96" dy="48">{ discount = ...; }</tspan></text><text x="680" y="335">if (order.vip())<tspan x="680" dy="48">{ discount = ...; }</tspan></text></g>
+    <g font-size="20" fill="#ADC3CA"><text x="96" y="447">独立代码块会无条件执行</text><text x="680" y="447">仅满足 VIP 条件时执行</text></g>
+  </g>
+  <g id="if-score" data-pptx-bounds="64 530 1152 120" fill="#EDF5F3"><text x="64" y="595" font-size="32">示例质量分</text><text x="290" y="620" font-size="80" font-weight="bold">92<tspan font-size="42" fill="#ADC3CA"> → </tspan><tspan fill="#64DEC0">100</tspan></text><text x="824" y="594" font-size="20" fill="#ADC3CA">静态规则消除 ≠ 业务完全正确</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：tests/samples/showcase/empty-if · discount = ... 为页面节选缩写</text><text x="1216" y="693" text-anchor="end">09 / 14</text></g>
+</svg>

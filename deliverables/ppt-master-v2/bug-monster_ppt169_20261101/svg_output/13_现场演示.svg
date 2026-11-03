@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">现场演示：先修复，再查看成长</text><text x="64" y="151" font-size="20" fill="#ADC3CA">双击“启动演示.cmd” → 等待就绪 → 打开本机页面</text></g>
+  <g id="demo-mainline" data-pptx-bounds="64 210 768 350" fill="#EDF5F3">
+    <text x="64" y="256" font-size="32" fill="#64DEC0">01</text><text x="145" y="256" font-size="32">扫描订单导入或 VIP 优惠案例</text><text x="145" y="299" font-size="20" fill="#ADC3CA">定位问题，解释空 catch 或多余分号。</text>
+    <text x="64" y="379" font-size="32" fill="#64DEC0">02</text><text x="145" y="379" font-size="32">修改草稿，再次扫描</text><text x="145" y="422" font-size="20" fill="#ADC3CA">查看质量分、收容结果和后端新增 XP。</text>
+    <text x="64" y="502" font-size="32" fill="#64DEC0">03</text><text x="145" y="502" font-size="32">打开图鉴、成长、历史与 AST</text><text x="145" y="545" font-size="20" fill="#ADC3CA">重复扫描，观察同一奖励不会重复发放。</text>
+  </g>
+  <g id="optional-demo" data-pptx-bounds="880 210 336 350">
+    <rect x="880" y="210" width="336" height="350" rx="8" fill="#142B36"/>
+    <text x="912" y="268" font-size="32" fill="#EDF5F3">可选展示</text>
+    <text x="912" y="331" fill="#64DEC0">保存昵称“狼尊999”</text><text x="912" y="375" font-size="20" fill="#ADC3CA">切换紫色主题与角色过场</text>
+    <text x="912" y="449" fill="#64DEC0">主动生成 AI 修复预览</text><text x="912" y="493" font-size="20" fill="#ADC3CA">现场不强求固定响应时间</text>
+  </g>
+  <g id="demo-records" data-pptx-bounds="64 598 1152 52" fill="#ADC3CA"><text x="64" y="632">要展示首次奖励，使用新建项目；分数与累计 XP 以实际页面为准。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">本机地址：http://127.0.0.1:5173/ · 来源：docs/演示讲稿.md</text><text x="1216" y="693" text-anchor="end">13 / 14</text></g>
+</svg>

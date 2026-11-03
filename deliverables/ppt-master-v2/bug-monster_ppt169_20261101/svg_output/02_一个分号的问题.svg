@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26" />
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">一个多余的分号，让优惠失去条件</text><text x="64" y="151" font-size="20" fill="#ADC3CA">从课堂里常见的小疏漏出发，给修复一个清楚的目标。</text></g>
+  <g id="semicolon-evidence" data-pptx-bounds="64 214 696 320">
+    <rect x="64" y="214" width="696" height="320" rx="8" fill="#142B36" />
+    <text x="96" y="265" font-size="20" fill="#ADC3CA">VIP 优惠案例 · 原代码节选</text>
+    <text x="96" y="335" font-family="Consolas" font-size="32" fill="#EDF5F3">if (order.vip())<tspan fill="#FFA07B" font-weight="bold">;</tspan><tspan x="96" dy="48">{</tspan><tspan x="96" dy="48">    discount = ...;</tspan><tspan x="96" dy="48">}</tspan></text>
+  </g>
+  <g id="business-effect" data-pptx-bounds="820 214 396 320" fill="#EDF5F3">
+    <text x="820" y="272" font-size="32" font-weight="bold" fill="#FFA07B">if 的 then 分支为空</text>
+    <text x="820" y="346">后面的代码块独立执行，<tspan x="820" dy="44">普通订单也会获得折扣。</tspan></text>
+    <line x1="820" y1="395" x2="1216" y2="395" stroke="#31515D" stroke-width="2" />
+    <text x="820" y="450" fill="#64DEC0">系统把它标记为“空壳潜伏者”</text>
+    <use data-icon="monsters/EMPTY_IF" x="1104" y="466" width="64" height="64" fill="#EDF5F3" />
+  </g>
+  <g id="learning-goal" data-pptx-bounds="64 575 1152 65" fill="#EDF5F3"><text x="64" y="619" font-size="32">让“发现 → 理解 → 修复”成为一次可反馈的练习。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：tests/samples/showcase/empty-if/before/OrderPricingService.java</text><text x="1216" y="693" text-anchor="end">02 / 14</text></g>
+</svg>

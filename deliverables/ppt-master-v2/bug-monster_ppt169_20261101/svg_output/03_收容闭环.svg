@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26" />
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">一次收容，要走完四步</text><text x="64" y="149" font-size="20" fill="#ADC3CA">页面给反馈，后端负责判定。</text></g>
+  <g id="containment-sequence" data-pptx-bounds="64 200 1152 340">
+    <g id="step-scan" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="64 260 272 150" fill="#173744" stroke="none"><path d="M 64 260 L 261 260 L 336 335 L 261 410 L 64 410 L 139 335 Z" /></g>
+    <g id="step-locate" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="352 260 272 150" fill="#173744" stroke="none"><path d="M 352 260 L 549 260 L 624 335 L 549 410 L 352 410 L 427 335 Z" /></g>
+    <g id="step-repair" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="640 260 272 150" fill="#173744" stroke="none"><path d="M 640 260 L 837 260 L 912 335 L 837 410 L 640 410 L 715 335 Z" /></g>
+    <g id="step-contain" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="928 260 272 150" fill="#1D4A45" stroke="none"><path d="M 928 260 L 1125 260 L 1200 335 L 1125 410 L 928 410 L 1003 335 Z" /></g>
+    <g font-size="20" fill="#ADC3CA" text-anchor="middle"><text x="210" y="237">01</text><text x="498" y="237">02</text><text x="786" y="237">03</text><text x="1074" y="237">04</text></g>
+    <g fill="#EDF5F3" text-anchor="middle"><text x="210" y="347">提交扫描</text><text x="498" y="347">定位问题</text><text x="786" y="347">修改草稿</text><text x="1074" y="347" fill="#64DEC0">验证收容</text></g>
+    <g font-size="20" fill="#ADC3CA" text-anchor="middle"><text x="200" y="462">完整 Java 源码</text><text x="488" y="462">行号、建议、怪兽</text><text x="776" y="462">保留修改控制权</text><text x="1064" y="462">再次扫描后结算</text></g>
+  </g>
+  <g id="result-split" data-pptx-bounds="64 564 1152 76" fill="#EDF5F3"><line x1="64" y1="565" x2="1216" y2="565" stroke="#31515D" stroke-width="2" /><text x="64" y="615">质量分：本次代码的问题数量</text><text x="690" y="615" fill="#64DEC0">XP：首次有效修复的成长奖励</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">扫描、收容与奖励结果均来自后端</text><text x="1216" y="693" text-anchor="end">03 / 14</text></g>
+</svg>

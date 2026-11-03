@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">修复吞异常：让失败原因留下记录</text><text x="64" y="151" font-size="20" fill="#ADC3CA">订单 CSV 导入案例 · catch 内补充失败记录</text></g>
+  <g id="empty-catch-before" data-pptx-bounds="64 208 400 330">
+    <rect x="64" y="208" width="400" height="330" rx="8" fill="#142B36"/>
+    <text x="92" y="253" font-size="20" fill="#FFA07B">修复前 · 异常被忽略</text>
+    <text x="92" y="320" font-family="Consolas" font-size="24" fill="#EDF5F3">catch (<tspan x="92" dy="40">  NumberFormatException</tspan><tspan x="92" dy="40">  exception) {</tspan><tspan x="92" dy="40" fill="#FFA07B">  // 空处理</tspan><tspan x="92" dy="40">}</tspan></text>
+  </g>
+  <g id="empty-catch-after" data-pptx-bounds="496 208 720 330">
+    <rect x="496" y="208" width="720" height="330" rx="8" fill="#163B38"/>
+    <text x="524" y="253" font-size="20" fill="#64DEC0">修复后 · catch 内新增的实际语句</text>
+    <text x="524" y="318" font-family="Consolas" font-size="24" fill="#EDF5F3">failures.add(new ImportFailure(<tspan x="524" dy="44">    index + 1,</tspan><tspan x="524" dy="44" fill="#64DEC0">    "Invalid amount: " +</tspan><tspan x="524" dy="44" fill="#64DEC0">    fields[2].strip()));</tspan></text>
+    <text x="524" y="512" font-size="20" fill="#ADC3CA">保留行号与原因，便于回看失败条目。</text>
+  </g>
+  <g id="catch-score" data-pptx-bounds="64 550 1152 116" fill="#EDF5F3"><text x="64" y="625" font-size="32">示例质量分</text><text x="290" y="634" font-size="80" font-weight="bold">85<tspan font-size="42" fill="#ADC3CA"> → </tspan><tspan fill="#64DEC0">100</tspan></text><text x="824" y="621" font-size="20" fill="#ADC3CA">消除 1 个 EMPTY_CATCH 问题</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：tests/samples/showcase/empty-catch · 节选重排，完整类保存在源码样例中</text><text x="1216" y="693" text-anchor="end">08 / 14</text></g>
+</svg>

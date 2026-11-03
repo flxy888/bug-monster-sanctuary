@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26" />
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">五类代码问题，对应五只怪兽</text><text x="64" y="151" font-size="20" fill="#ADC3CA">规则阈值为本项目的启发式定义，便于课堂观察与练习。</text></g>
+  <g id="monster-catalog" data-pptx-bounds="64 208 1152 330" text-anchor="middle" fill="#EDF5F3">
+    <g><use data-icon="monsters/EMPTY_CATCH" x="96" y="232" width="128" height="128" fill="#EDF5F3" /><text x="160" y="408">吞异常兽</text><text x="160" y="451" font-size="20" fill="#ADC3CA">catch 无实际处理</text><text x="160" y="501" font-size="32" fill="#FFA07B">−15 分</text></g>
+    <g><use data-icon="monsters/LONG_METHOD" x="328" y="232" width="128" height="128" fill="#EDF5F3" /><text x="392" y="408">长舌章鱼</text><text x="392" y="451" font-size="20" fill="#ADC3CA">方法体 &gt; 30 源行</text><text x="392" y="501" font-size="32" fill="#FFA07B">−10 分</text></g>
+    <g><use data-icon="monsters/DEEP_NESTING" x="560" y="232" width="128" height="128" fill="#EDF5F3" /><text x="624" y="408">套娃怪</text><text x="624" y="451" font-size="20" fill="#ADC3CA">控制结构 ≥ 4 层</text><text x="624" y="501" font-size="32" fill="#FFA07B">−10 分</text></g>
+    <g><use data-icon="monsters/TOO_MANY_PARAMETERS" x="792" y="232" width="128" height="128" fill="#EDF5F3" /><text x="856" y="408">多手触手怪</text><text x="856" y="451" font-size="20" fill="#ADC3CA">普通方法 &gt; 5 参数</text><text x="856" y="501" font-size="32" fill="#FFA07B">−8 分</text></g>
+    <g><use data-icon="monsters/EMPTY_IF" x="1024" y="232" width="128" height="128" fill="#EDF5F3" /><text x="1088" y="408">空壳潜伏者</text><text x="1088" y="451" font-size="20" fill="#ADC3CA">空 then / 多余分号</text><text x="1088" y="501" font-size="32" fill="#FFA07B">−8 分</text></g>
+  </g>
+  <g id="score-rule" data-pptx-bounds="64 566 1152 80" fill="#EDF5F3"><line x1="64" y1="567" x2="1216" y2="567" stroke="#31515D" stroke-width="2" /><text x="64" y="616" font-size="32">质量分从 100 起扣，最低为 0。</text><text x="740" y="616" font-size="20" fill="#ADC3CA">长方法的源行包含空行和注释。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：docs/技术说明.md · 项目自绘像素 SVG</text><text x="1216" y="693" text-anchor="end">04 / 14</text></g>
+</svg>

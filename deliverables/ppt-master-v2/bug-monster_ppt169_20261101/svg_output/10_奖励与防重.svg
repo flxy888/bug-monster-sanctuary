@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">奖励认有效修复，也认问题的身份</text><text x="64" y="151" font-size="20" fill="#ADC3CA">成功扫描之间比较稳定身份与谱系，不能只看行号或问题是否消失。</text></g>
+  <g id="first-reward" data-pptx-bounds="64 212 424 350" fill="#EDF5F3">
+    <text x="64" y="267" font-size="32">首次有效收容</text><text x="64" y="388" font-size="80" font-weight="bold" fill="#64DEC0">+20 XP</text>
+    <text x="64" y="467">已领奖的问题复发后再修，<tspan x="64" dy="44">不再新增奖励。</tspan></text>
+  </g>
+  <g id="no-reward-cases" data-pptx-bounds="552 212 664 350" fill="#EDF5F3">
+    <line x1="552" y1="222" x2="552" y2="551" stroke="#31515D" stroke-width="2"/>
+    <text x="592" y="267" font-size="32">以下情况不会直接发修复奖励</text>
+    <text x="592" y="334"><tspan fill="#FFA07B">重复扫描</tspan><tspan fill="#ADC3CA">　没有新的有效收容</tspan><tspan x="592" dy="59" fill="#FFA07B">语法失败</tspan><tspan fill="#ADC3CA">　不能确认修复结果</tspan><tspan x="592" dy="59" fill="#FFA07B">删除方法</tspan><tspan fill="#ADC3CA">　不能当作正常修复</tspan><tspan x="592" dy="59" fill="#FFA07B">身份歧义</tspan><tspan fill="#ADC3CA">　争用身份保守冻结</tspan></text>
+  </g>
+  <g id="idempotency" data-pptx-bounds="64 590 1152 58" fill="#ADC3CA"><text x="64" y="630">项目行锁 + 唯一奖励记录 + 事务，维持结算幂等性。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：ScanService.java · IdentityMatcher.java · database 迁移</text><text x="1216" y="693" text-anchor="end">10 / 14</text></g>
+</svg>

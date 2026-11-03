@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#64DEC0" stroke-width="1.5"/></marker></defs>
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">JavaParser 把源码变成可检查的 AST</text><text x="64" y="151" font-size="20" fill="#ADC3CA">AST 是抽象语法树：让规则检查代码结构。</text></g>
+  <g id="analysis-pipeline" data-pptx-bounds="64 220 1152 220">
+    <g fill="#142B36"><rect x="64" y="250" width="240" height="132" rx="8"/><rect x="368" y="250" width="240" height="132" rx="8"/><rect x="672" y="250" width="240" height="132" rx="8"/><rect x="976" y="250" width="240" height="132" rx="8"/></g>
+    <g stroke="#64DEC0" stroke-width="2"><line x1="316" y1="316" x2="354" y2="316" marker-end="url(#arrow)"/><line x1="620" y1="316" x2="658" y2="316" marker-end="url(#arrow)"/><line x1="924" y1="316" x2="962" y2="316" marker-end="url(#arrow)"/></g>
+    <g fill="#EDF5F3" text-anchor="middle" font-size="32"><text x="184" y="326">Java 源码</text><text x="488" y="326">AST</text><text x="792" y="326">五项规则</text><text x="1096" y="326" fill="#64DEC0">问题与评分</text></g>
+    <g fill="#ADC3CA" text-anchor="middle" font-size="20"><text x="184" y="426">Java 21 语法配置</text><text x="488" y="426">CompilationUnit</text><text x="792" y="426">遍历相关节点</text><text x="1096" y="426">行号、建议、扣分</text></g>
+  </g>
+  <g id="parse-boundary" data-pptx-bounds="64 494 1152 138" fill="#EDF5F3"><line x1="64" y1="495" x2="1216" y2="495" stroke="#31515D" stroke-width="2"/><text x="64" y="554" font-size="32" fill="#64DEC0">只解析，不编译或执行用户源码。</text><text x="64" y="606">语法失败会返回结构化错误，也不会直接发修复奖励。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：CodeAnalyzer.java · JavaParser 3.28.2</text><text x="1216" y="693" text-anchor="end">05 / 14</text></g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="ending" font-family="Microsoft YaHei" font-size="28">
+  <defs><linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#64DEC0"/><stop offset="100%" stop-color="#0C1C26"/></linearGradient></defs>
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="closing-title" data-pptx-bounds="64 60 1152 90" fill="#EDF5F3"><text x="64" y="111" font-size="42" font-weight="bold">Bug 怪兽收容所 · Java 课程实践</text></g>
+  <g id="closing-takeaway" data-pptx-bounds="64 200 1152 240" fill="#EDF5F3"><text x="64" y="286" font-size="80" font-weight="bold">修好一处疏漏，<tspan x="64" dy="112" fill="#64DEC0">看见一次成长。</tspan></text></g>
+  <g id="course-learning" data-pptx-bounds="64 478 1152 90" fill="#EDF5F3"><rect x="64" y="479" width="1000" height="3" fill="url(#accent)"/><text x="64" y="540" font-size="32">接口组织规则　·　AST 理解结构　·　事务保护奖励</text></g>
+  <g id="scope-boundary" data-pptx-bounds="64 594 1152 68" fill="#ADC3CA" font-size="20"><text x="64" y="620">已实现本机单用户演示；静态检查与 AI 建议不能证明业务完全正确。<tspan x="64" dy="31">用户源码只用于静态解析，公开多用户产品不属于当前交付范围。</tspan></text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">项目说明与源码为事实依据 · 2026-11-01</text><text x="1216" y="693" text-anchor="end">14 / 14</text></g>
+</svg>

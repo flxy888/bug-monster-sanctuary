@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">九张表，让扫描与奖励可以回看</text><text x="64" y="151" font-size="20" fill="#ADC3CA">按用途整理：基础对象、扫描证据、成长与结算。</text></g>
+  <g id="base-data" data-pptx-bounds="64 218 336 350" fill="#EDF5F3">
+    <rect x="64" y="220" width="336" height="4" fill="#83BFE8"/><text x="64" y="280" font-size="32" font-weight="bold">基础对象</text>
+    <text x="64" y="345" font-family="Consolas" font-size="24">users<tspan x="64" dy="45">projects</tspan><tspan x="64" dy="45">monster_types</tspan></text>
+    <text x="64" y="522" font-size="20" fill="#ADC3CA">用户、项目、怪兽定义</text>
+  </g>
+  <g id="scan-evidence" data-pptx-bounds="448 218 352 350" fill="#EDF5F3">
+    <rect x="448" y="220" width="352" height="4" fill="#83BFE8"/><text x="448" y="280" font-size="32" font-weight="bold">扫描证据</text>
+    <text x="448" y="345" font-family="Consolas" font-size="24">scan_runs<tspan x="448" dy="45">scan_issues</tspan><tspan x="448" dy="45">issue_lineages</tspan></text>
+    <text x="448" y="522" font-size="20" fill="#ADC3CA">运行快照、问题与谱系</text>
+  </g>
+  <g id="growth-settlement" data-pptx-bounds="848 218 368 350" fill="#EDF5F3">
+    <rect x="848" y="220" width="368" height="4" fill="#64DEC0"/><text x="848" y="280" font-size="32" font-weight="bold">成长与结算</text>
+    <text x="848" y="345" font-family="Consolas" font-size="24">user_monsters<tspan x="848" dy="45">reward_logs</tspan><tspan x="848" dy="45">project_identity_state</tspan></text>
+    <text x="848" y="522" font-size="20" fill="#ADC3CA">图鉴、领奖记录、身份状态</text>
+  </g>
+  <g id="history-separation" data-pptx-bounds="64 590 1152 58" fill="#64DEC0"><text x="64" y="630">历史源码快照、当前草稿与累计成长，分别维护。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：database/01-schema.sql 与增量迁移 · docs/技术说明.md</text><text x="1216" y="693" text-anchor="end">11 / 14</text></g>
+</svg>

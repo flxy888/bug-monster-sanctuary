@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" data-pptx-page-role="content" font-family="Microsoft YaHei" font-size="28">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#64DEC0" stroke-width="1.5"/></marker></defs>
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#0C1C26"/>
+  <g id="title" data-pptx-bounds="64 54 1152 110" fill="#EDF5F3"><text x="64" y="105" font-size="42" font-weight="bold">AI 提供修复预览，原扫描负责判定</text><text x="64" y="151" font-size="20" fill="#ADC3CA">狼尊主题下主动点击“AI修复”，当前源码会发送至 DeepSeek。</text></g>
+  <g id="ai-preview-flow" data-pptx-bounds="64 214 1152 394">
+    <g fill="#142B36"><rect x="64" y="224" width="336" height="160" rx="8"/><rect x="472" y="224" width="336" height="160" rx="8"/><rect x="880" y="224" width="336" height="160" rx="8"/></g>
+    <g stroke="#64DEC0" stroke-width="2"><line x1="412" y1="304" x2="458" y2="304" marker-end="url(#arrow)"/><line x1="820" y1="304" x2="866" y2="304" marker-end="url(#arrow)"/><line x1="1048" y1="396" x2="1048" y2="454" marker-end="url(#arrow)"/></g>
+    <g fill="#EDF5F3" text-anchor="middle"><text x="232" y="283" font-size="32">主动请求</text><text x="640" y="283" font-size="32">查看预览</text><text x="1048" y="283" font-size="32">确认应用</text><text x="232" y="340" font-size="20" fill="#ADC3CA">提交当前源码</text><text x="640" y="340" font-size="20" fill="#ADC3CA">原 / 新代码与摘要</text><text x="1048" y="340" font-size="20" fill="#ADC3CA">只修改本地草稿</text></g>
+    <rect x="64" y="470" width="1152" height="130" rx="8" fill="#163B38"/>
+    <text x="96" y="522" font-size="32" fill="#64DEC0">重新提交扫描 / 验证收容</text><text x="96" y="569" fill="#EDF5F3">后端规则独立判定问题、收容与奖励，AI 本身不新增扫描、不发 XP。</text>
+  </g>
+  <g id="ai-failure" data-pptx-bounds="64 626 1152 34" fill="#ADC3CA" font-size="20"><text x="64" y="649">错误、取消或上下文变化时保留原稿；建议仍需人工检查。</text></g>
+  <g id="footer" data-pptx-bounds="64 674 1152 28" data-pptx-role="footer" fill="#ADC3CA" font-size="16"><text x="64" y="693">来源：README-AI.md · AiRepairService.java · AiRepairPreview.vue</text><text x="1216" y="693" text-anchor="end">12 / 14</text></g>
+</svg>
