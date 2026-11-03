@@ -1,0 +1,34 @@
+class RepairExample {
+    void inspect() {
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+        work();
+    }
+}
