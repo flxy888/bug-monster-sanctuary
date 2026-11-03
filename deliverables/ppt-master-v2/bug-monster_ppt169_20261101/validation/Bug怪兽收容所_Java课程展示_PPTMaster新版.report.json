@@ -1,0 +1,247 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed",
+  "output": {
+    "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\exports\\Bug怪兽收容所_Java课程展示_PPTMaster新版.pptx",
+    "bytes": 83135
+  },
+  "source": {
+    "svg_slide_count": 14,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "7734100540160eac391dcd081bd58f699f7a5050058ad41462d267edef3e2b94",
+      "file_count": 14,
+      "files": [
+        {
+          "file": "01_把Bug变成怪兽.svg",
+          "sha256": "a25470a62db201b6346c40e3ee3732c28fbdd19e1b74d642bcce2fafd709af78"
+        },
+        {
+          "file": "02_一个分号的问题.svg",
+          "sha256": "17163f73a26c0ac9f9647084768c70d0ac2b524fb96c6e130978df7d795a8f18"
+        },
+        {
+          "file": "03_收容闭环.svg",
+          "sha256": "0e318b7652d248b926b706079425e68c858e55f05e10584aa03f669e17533a16"
+        },
+        {
+          "file": "04_五类代码怪兽.svg",
+          "sha256": "841bdf56df943f3cfe5ba708e7265cf8612b7513a9778b377932d38c8ae0b70a"
+        },
+        {
+          "file": "05_AST静态解析.svg",
+          "sha256": "82f5c5043e20f6c692eb6a6e089b9403eaaea4367db7f891b5e865b572bf8361"
+        },
+        {
+          "file": "06_接口与多态.svg",
+          "sha256": "79f478837d36f36f712f8874ecd24225786b502af59d3ce424cd104313d0f03c"
+        },
+        {
+          "file": "07_系统结构.svg",
+          "sha256": "329ddf9c823803402cb8d533c1f1dd616f18c4d99f007c6c56a5a49869b53e7c"
+        },
+        {
+          "file": "08_空catch修复.svg",
+          "sha256": "870007f2bbcbb15349ce65d60e2a8609b9fa854adaa718d98a1787b2a13ce602"
+        },
+        {
+          "file": "09_空if修复.svg",
+          "sha256": "523e213f7755b23b30d08522766743391f1d4419563d8b0749cea1616b468ac8"
+        },
+        {
+          "file": "10_奖励与防重.svg",
+          "sha256": "64908cd298be02ffe78ac767a73a6277341c8a2797369fbe5337b86de72eaa82"
+        },
+        {
+          "file": "11_持久化与历史.svg",
+          "sha256": "e16251f8c75d63fec01a48a1a751f50f4ab5a6a729d7947f12030122311f2cd6"
+        },
+        {
+          "file": "12_AI修复预览.svg",
+          "sha256": "0f7e8731c6c6cebf6bd618c80ddac0af036f1df63cbd084674633953282fba6d"
+        },
+        {
+          "file": "13_现场演示.svg",
+          "sha256": "f97cd6c78fc50d4abd049eab0e2940eca5ff2625f31fdf3e4f9aa1628149b223"
+        },
+        {
+          "file": "14_课程收获.svg",
+          "sha256": "f96c25e6c8a14548e8ebbb1fe37b54c63eec8a7e27d2931b26e060f19490a799"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 14,
+    "notes": 14,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "passed",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\validation\\svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "7734100540160eac391dcd081bd58f699f7a5050058ad41462d267edef3e2b94",
+      "file_count": 14,
+      "files": [
+        {
+          "file": "01_把Bug变成怪兽.svg",
+          "sha256": "a25470a62db201b6346c40e3ee3732c28fbdd19e1b74d642bcce2fafd709af78"
+        },
+        {
+          "file": "02_一个分号的问题.svg",
+          "sha256": "17163f73a26c0ac9f9647084768c70d0ac2b524fb96c6e130978df7d795a8f18"
+        },
+        {
+          "file": "03_收容闭环.svg",
+          "sha256": "0e318b7652d248b926b706079425e68c858e55f05e10584aa03f669e17533a16"
+        },
+        {
+          "file": "04_五类代码怪兽.svg",
+          "sha256": "841bdf56df943f3cfe5ba708e7265cf8612b7513a9778b377932d38c8ae0b70a"
+        },
+        {
+          "file": "05_AST静态解析.svg",
+          "sha256": "82f5c5043e20f6c692eb6a6e089b9403eaaea4367db7f891b5e865b572bf8361"
+        },
+        {
+          "file": "06_接口与多态.svg",
+          "sha256": "79f478837d36f36f712f8874ecd24225786b502af59d3ce424cd104313d0f03c"
+        },
+        {
+          "file": "07_系统结构.svg",
+          "sha256": "329ddf9c823803402cb8d533c1f1dd616f18c4d99f007c6c56a5a49869b53e7c"
+        },
+        {
+          "file": "08_空catch修复.svg",
+          "sha256": "870007f2bbcbb15349ce65d60e2a8609b9fa854adaa718d98a1787b2a13ce602"
+        },
+        {
+          "file": "09_空if修复.svg",
+          "sha256": "523e213f7755b23b30d08522766743391f1d4419563d8b0749cea1616b468ac8"
+        },
+        {
+          "file": "10_奖励与防重.svg",
+          "sha256": "64908cd298be02ffe78ac767a73a6277341c8a2797369fbe5337b86de72eaa82"
+        },
+        {
+          "file": "11_持久化与历史.svg",
+          "sha256": "e16251f8c75d63fec01a48a1a751f50f4ab5a6a729d7947f12030122311f2cd6"
+        },
+        {
+          "file": "12_AI修复预览.svg",
+          "sha256": "0f7e8731c6c6cebf6bd618c80ddac0af036f1df63cbd084674633953282fba6d"
+        },
+        {
+          "file": "13_现场演示.svg",
+          "sha256": "f97cd6c78fc50d4abd049eab0e2940eca5ff2625f31fdf3e4f9aa1628149b223"
+        },
+        {
+          "file": "14_课程收获.svg",
+          "sha256": "f96c25e6c8a14548e8ebbb1fe37b54c63eec8a7e27d2931b26e060f19490a799"
+        }
+      ]
+    },
+    "summary": {
+      "total": 14,
+      "passed": 14,
+      "warnings": 0,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 0,
+        "issues": []
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Consolas",
+        "Microsoft YaHei"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 0,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": null,
+  "conversion_trace_path": null
+}

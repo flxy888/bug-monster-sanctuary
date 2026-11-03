@@ -1,0 +1,982 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "7734100540160eac391dcd081bd58f699f7a5050058ad41462d267edef3e2b94",
+    "file_count": 14,
+    "files": [
+      {
+        "file": "01_把Bug变成怪兽.svg",
+        "sha256": "a25470a62db201b6346c40e3ee3732c28fbdd19e1b74d642bcce2fafd709af78"
+      },
+      {
+        "file": "02_一个分号的问题.svg",
+        "sha256": "17163f73a26c0ac9f9647084768c70d0ac2b524fb96c6e130978df7d795a8f18"
+      },
+      {
+        "file": "03_收容闭环.svg",
+        "sha256": "0e318b7652d248b926b706079425e68c858e55f05e10584aa03f669e17533a16"
+      },
+      {
+        "file": "04_五类代码怪兽.svg",
+        "sha256": "841bdf56df943f3cfe5ba708e7265cf8612b7513a9778b377932d38c8ae0b70a"
+      },
+      {
+        "file": "05_AST静态解析.svg",
+        "sha256": "82f5c5043e20f6c692eb6a6e089b9403eaaea4367db7f891b5e865b572bf8361"
+      },
+      {
+        "file": "06_接口与多态.svg",
+        "sha256": "79f478837d36f36f712f8874ecd24225786b502af59d3ce424cd104313d0f03c"
+      },
+      {
+        "file": "07_系统结构.svg",
+        "sha256": "329ddf9c823803402cb8d533c1f1dd616f18c4d99f007c6c56a5a49869b53e7c"
+      },
+      {
+        "file": "08_空catch修复.svg",
+        "sha256": "870007f2bbcbb15349ce65d60e2a8609b9fa854adaa718d98a1787b2a13ce602"
+      },
+      {
+        "file": "09_空if修复.svg",
+        "sha256": "523e213f7755b23b30d08522766743391f1d4419563d8b0749cea1616b468ac8"
+      },
+      {
+        "file": "10_奖励与防重.svg",
+        "sha256": "64908cd298be02ffe78ac767a73a6277341c8a2797369fbe5337b86de72eaa82"
+      },
+      {
+        "file": "11_持久化与历史.svg",
+        "sha256": "e16251f8c75d63fec01a48a1a751f50f4ab5a6a729d7947f12030122311f2cd6"
+      },
+      {
+        "file": "12_AI修复预览.svg",
+        "sha256": "0f7e8731c6c6cebf6bd618c80ddac0af036f1df63cbd084674633953282fba6d"
+      },
+      {
+        "file": "13_现场演示.svg",
+        "sha256": "f97cd6c78fc50d4abd049eab0e2940eca5ff2625f31fdf3e4f9aa1628149b223"
+      },
+      {
+        "file": "14_课程收获.svg",
+        "sha256": "f96c25e6c8a14548e8ebbb1fe37b54c63eec8a7e27d2931b26e060f19490a799"
+      }
+    ]
+  },
+  "summary": {
+    "total": 14,
+    "passed": 14,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 14,
+    "totals": {
+      "text_elements": 181,
+      "image_placements": 0,
+      "icons": 7,
+      "svg_geometry_elements": 52,
+      "preset_shapes": 5,
+      "page_frame_elements": 14,
+      "marker_uses": 8,
+      "inline_emphasis_runs": 11,
+      "gradient_uses": 2,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 3,
+      "presets": 2,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 4,
+      "gradient_uses": 2,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": null,
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 14,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 38
+    },
+    "preset_names": {
+      "chevron": 4,
+      "snip2DiagRect": 1
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_把Bug变成怪兽.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\01_把Bug变成怪兽.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "snip2DiagRect": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "a25470a62db201b6346c40e3ee3732c28fbdd19e1b74d642bcce2fafd709af78"
+    },
+    {
+      "file": "02_一个分号的问题.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\02_一个分号的问题.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "17163f73a26c0ac9f9647084768c70d0ac2b524fb96c6e130978df7d795a8f18"
+    },
+    {
+      "file": "03_收容闭环.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\03_收容闭环.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 4,
+            "preset_names": {
+              "chevron": 4
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "0e318b7652d248b926b706079425e68c858e55f05e10584aa03f669e17533a16"
+    },
+    {
+      "file": "04_五类代码怪兽.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\04_五类代码怪兽.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 5,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "841bdf56df943f3cfe5ba708e7265cf8612b7513a9778b377932d38c8ae0b70a"
+    },
+    {
+      "file": "05_AST静态解析.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\05_AST静态解析.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 3
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "82f5c5043e20f6c692eb6a6e089b9403eaaea4367db7f891b5e865b572bf8361"
+    },
+    {
+      "file": "06_接口与多态.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\06_接口与多态.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "79f478837d36f36f712f8874ecd24225786b502af59d3ce424cd104313d0f03c"
+    },
+    {
+      "file": "07_系统结构.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\07_系统结构.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "329ddf9c823803402cb8d533c1f1dd616f18c4d99f007c6c56a5a49869b53e7c"
+    },
+    {
+      "file": "08_空catch修复.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\08_空catch修复.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "870007f2bbcbb15349ce65d60e2a8609b9fa854adaa718d98a1787b2a13ce602"
+    },
+    {
+      "file": "09_空if修复.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\09_空if修复.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "523e213f7755b23b30d08522766743391f1d4419563d8b0749cea1616b468ac8"
+    },
+    {
+      "file": "10_奖励与防重.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\10_奖励与防重.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 5,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "64908cd298be02ffe78ac767a73a6277341c8a2797369fbe5337b86de72eaa82"
+    },
+    {
+      "file": "11_持久化与历史.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\11_持久化与历史.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "e16251f8c75d63fec01a48a1a751f50f4ab5a6a729d7947f12030122311f2cd6"
+    },
+    {
+      "file": "12_AI修复预览.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\12_AI修复预览.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 3
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "0f7e8731c6c6cebf6bd618c80ddac0af036f1df63cbd084674633953282fba6d"
+    },
+    {
+      "file": "13_现场演示.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\13_现场演示.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "f97cd6c78fc50d4abd049eab0e2940eca5ff2625f31fdf3e4f9aa1628149b223"
+    },
+    {
+      "file": "14_课程收获.svg",
+      "path": "C:\\Users\\25756\\Desktop\\Bug怪兽收容所\\deliverables\\ppt-master-v2\\bug-monster_ppt169_20261101\\svg_output\\14_课程收获.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "f96c25e6c8a14548e8ebbb1fe37b54c63eec8a7e27d2931b26e060f19490a799"
+    }
+  ]
+}
