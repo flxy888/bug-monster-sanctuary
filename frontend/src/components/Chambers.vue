@@ -1,0 +1,9 @@
+<script setup>
+import { computed } from 'vue'
+import { monsterSprites } from '../monsterSprites'
+const props=defineProps({ scanStatus:String, definitions:Array, issues:Array, page:Number, selectedKey:String })
+defineEmits(['page','select'])
+const visible=computed(()=>props.definitions.slice(props.page*3,props.page*3+3))
+const entries=code=>props.issues.filter(i=>i.ruleCode===code)
+</script>
+<template><section class="metal chambers-panel"><header class="panel-title"><h2>怪兽收容舱</h2><span>{{ page+1 }} / {{ Math.max(1,Math.ceil(definitions.length/3)) }}</span></header><div class="chamber-deck"><article v-for="d in visible" :key="d.ruleCode" class="chamber" :class="{occupied:entries(d.ruleCode).length,chosen:entries(d.ruleCode).some(i=>i.issueKey===selectedKey)}"><div class="chamber-top"><span>●</span> {{ scanStatus==='NOT_SCANNED' ? '未扫描' : scanStatus==='PARSE_ERROR' ? '不可评估' : entries(d.ruleCode).length ? '待处理' : '未检出' }}</div><div class="glass"><img :src="monsterSprites[d.ruleCode]" alt="" width="128" height="128" /><span class="chamber-count">{{ scanStatus==='SUCCESS' ? entries(d.ruleCode).length : '—' }} 只</span></div><div class="chamber-base">{{ d.monsterName }}</div><small class="rule-code">{{ d.ruleCode }}</small><p class="chamber-summary">{{ scanStatus==='NOT_SCANNED' ? '扫描后查看此类问题。' : scanStatus==='PARSE_ERROR' ? '语法失败，未完成检测。' : entries(d.ruleCode).length ? '检测到问题，尚未确认收容。' : '本次扫描未发现此类问题。' }}</p><div class="instance-list"><button v-for="i in entries(d.ruleCode)" :key="i.issueKey" :class="{chosen:i.issueKey===selectedKey}" @click="$emit('select',i)">L{{ i.startLine }}–{{ i.endLine }} · {{ i.matchStatus==='AMBIGUOUS'?'歧义冻结':'定位' }}</button></div></article></div><nav class="chamber-pager" aria-label="切换收容舱"><button :disabled="page===0" @click="$emit('page',page-1)">← 前三类</button><button :disabled="(page+1)*3>=definitions.length" @click="$emit('page',page+1)">其余类型 →</button></nav></section></template>
