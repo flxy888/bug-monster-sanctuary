@@ -1,0 +1,38 @@
+{
+  "platform": "windows-x64",
+  "java": {
+    "vendor": "Amazon Corretto",
+    "version": "21.0.13+10",
+    "directory": ".tools/jdk/jdk21.0.13_0",
+    "sha256": "ABD264A79E07C64E19AAA705E5B8EA8DB01D5213877B8AC0B855A94541A4B0FD"
+  },
+  "maven": {
+    "version": "3.9.9",
+    "sha256": "4EC3F26FB1A692473AEA0235C300BD20F0F9FE741947C82C1234CEFD76AC3A3C"
+  },
+  "mysql": {
+    "version": "8.4.7",
+    "sha256": "FD9BDBD4B5A878D31C8E4067078BD60665B1B3C4677FA1F099416D194B458AFF"
+  },
+  "node": {
+    "testedVersion": "26.10.0",
+    "minimumProjectVersion": "22.18.0"
+  },
+  "npm": {
+    "testedVersion": "11.19.1"
+  },
+  "backend": {
+    "springBoot": "3.5.16",
+    "mybatisStarter": "3.0.5",
+    "javaParser": "3.28.2",
+    "mysqlConnector": "9.2.0",
+    "resolvedDependencies": "backend/dependencies.lock"
+  },
+  "frontend": {
+    "vue": "3.5.44",
+    "vite": "8.3.5",
+    "elementPlus": "2.14.7",
+    "viteVuePlugin": "6.0.10",
+    "resolvedDependencies": "frontend/package-lock.json"
+  }
+}
